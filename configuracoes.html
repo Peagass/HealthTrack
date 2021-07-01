@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-compatilble" content="IE-edge">
+    <title>Health Track - Projeto</title>
+    <!-- Bootstrap & fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./JS/script.js"></script>
+</head>
+
+<body>
+<!--        Menu Lateral        -->
+<div class="sidenav">
+    <a href="index.html">Health Track</a><br><br>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="configuracoes.html">Meus Dados</a>
+    <a href="pesos.html">Pesos</a>
+    <a href="#contact">Refeições</a>
+    <a href="#contact">Atividades Físicas</a>
+  </div>
+    <!--        Avatar        -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="configuracoes.html">
+                <img src="./Imgs/avatar.png" alt="avatar.png" id="avatar">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id=avatarname>
+                Paulo Gomes<br><br>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="upload">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupFile01">Carregar</label>
+            <input type="file" class="form-control" id="inputGroupFile01">
+        </div>
+    </div>
+
+<!--        Dados        -->
+    <div class="container">
+        <p id="titulodados">Meus Dados<br></p>  
+    </div>
+
+
+  
+    <div class="container" id="formulario">
+        <div class="row">
+            <form>
+                <div class="col-md-12">
+                    <fieldset disabled>
+                    <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label">Nome Completo</label>
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Paulo Henrique de Souza Gomes">
+                    </div>
+                </div>    
+            </form>
+    </div>
+        <div class="row g-2" id="mailsex">
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="cadastro@healthtrack.com.br">
+                    <label for="floatingInputGrid">E-mail</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                        <option selected>Masculino</option>
+                        <option value="2">Feminino</option>
+                    </select>
+                    <label for="floatingSelectGrid">Sexo</label>
+                </div>
+            </div>
+        </div><br>
+        <div class="row g-2" id="mailsex">
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="name" class="form-control" id="floatingInputGrid" placeholder="Nome Teste" value="Paulo Gomes">
+                    <label for="floatingInputGrid">Apelido</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="altura" class="form-control" id="floatingInputGrid" placeholder="177cm" value="177 cm">
+                    <label for="floatingInputGrid">Altura</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="idade" class="form-control" id="floatingInputGrid" placeholder="29" value="29">
+                    <label for="floatingInputGrid">Idade</label>
+                </div>
+            </div>
+                <div class="container">
+                    <div class="row g-2">
+                        <div class="col-md">
+                            <div class="form-floating">
+                                <input type="metapeso" class="form-control" id="floatingInputGrid" placeholder="80 kg" value="80 kg">
+                                <label for="floatingInputGrid">Meta Peso</label>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-floating">
+                                <input type="metakcal" class="form-control" id="floatingInputGrid" placeholder="1800 kcal" value="1800 kcal">
+                                <label for="floatingInputGrid">Meta Calorias Consumidas</label>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-floating">
+                                <input type="metatime" class="form-control" id="floatingInputGrid" placeholder="60 minutos" value="60 minutos">
+                                <label for="floatingInputGrid">Meta Exercicio</label>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-floating">
+                                <input type="metakcal" class="form-control" id="floatingInputGrid" placeholder="1800 kcal" value="800 kcal">
+                                <label for="floatingInputGrid">Meta Calorias Gastas</label>
+                            </div>
+                        </div>
+                </div> 
+            </div>
+        </div>
+    </div><br>
+<!--        Botao Confirma        -->
+    <div class="container">
+        <button type="button" class="btn btn-success" id="botaosalvar" onclick="sucesso()">Atualizar Meus Dados</button>
+    </div><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

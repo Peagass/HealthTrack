@@ -1,0 +1,291 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: whitesmoke;
+}
+
+#menu{
+    background-color:#0d6efd;
+    height: 75px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#menu a{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#textoinicial{
+    text-align: center;
+}
+
+#widgets{
+    background-color: #0d6efd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+}
+
+#rodape{
+    background-color: gray;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#msgsucesso{
+    text-align: center;
+}
+
+#dashboardtext{
+    text-align: left;
+    font-size: 40px;
+}
+
+#avatar{
+    max-width: 13%;
+    height: auto;
+    opacity: 0.95;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+#avatar:hover{
+    opacity: 1;
+}
+
+#avatarname{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.quadrado{
+    width: 380px;
+    height: 480px;
+    background-color:#0d6efd;
+    border-radius: 15px;
+    padding: 30px 0;
+    opacity: 0.9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quadrado:hover{
+    opacity: 1;
+}
+
+.quadradobaixo{
+    width: 380px;
+    height: 150px;
+    background-color:teal;
+    border-radius: 15px;
+    padding: 20px 0;
+    opacity: 0.8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quadradobaixo:hover{
+    opacity: 1;
+}
+
+.titulodash{
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.titulodashbaixo{
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#datapesos{
+    list-style: none;
+    font-size: 20px;
+    color: whitesmoke;
+    line-height: 45px;
+    padding-top: 10px;
+}
+
+#pesos{
+    list-style: none;
+    font-size: 20px;
+    color: whitesmoke;
+    line-height: 45px;
+    padding-top: 10px;
+    padding-left: 60px;
+}
+
+#kcal{
+    font-size: 60px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#lastkcal{
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#addbutton{
+    padding-top: 90px;
+}
+
+#botaomais{
+    opacity: 0.8;
+}
+
+#botaomais:hover{
+    opacity: 1;
+}
+
+#atvmin{
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+}
+
+#atvkcal{
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+}
+
+#upload{
+    max-width: 25%;
+}
+
+#titulodados{
+    font-size: 50px;
+    text-align: center;
+}
+
+#buttonlogin{
+    width: 100%;
+}
+
+#borda{
+    border: #0d6efd solid;
+    border-width: 0px;
+    width: 55%;
+    height: 55%;
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+
+}
+
+.metapeso{
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 6px;
+}
+
+#metakcal{
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 6px;
+}
+
+#metalkcalbaixo{
+    font-size: 5px;
+    text-align: center;
+}
+
+#botaosalvar{
+    width: 100%;
+}
+
+.inputdate{
+    background-color: #0d6efd;
+    color: whitesmoke;
+    border: none;
+}
+
+.inputkg{
+    background-color: #0d6efd;
+    color: whitesmoke;
+    border: none;
+    width: 75%;
+    list-style-type: none;
+}
+
+#imglogin{
+    width: 45%;
+}
+
+#divimglogin{
+    text-align: center;
+}
+
+#login{
+    width: 45%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0d6efd;
+    overflow-x: hidden;
+    padding-top: 30px;
+    margin-right: 500px;
+}
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    display: block;
+    opacity: 0.9;
+    margin-left: 15px;
+}
+  
+.sidenav a:hover {
+    opacity: 1;
+    font-size: 27px;
+}
+
+.quadradopeso{
+    width: 90%;
+    height: 480px;
+    background-color:#0d6efd;
+    border-radius: 15px;
+    padding: 30px 0;
+    opacity: 0.9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textotabela{
+    text-align: center;
+}
